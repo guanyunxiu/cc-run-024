@@ -1,0 +1,1676 @@
+[
+{
+"code": "D_RICE",
+"name": "软米饭",
+"dish_type": "staple",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.06,
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 60,
+"loss": 0.05
+}
+]
+},
+{
+"code": "D_RICE_PASTE",
+"name": "米糊（谷物泥）",
+"dish_type": "liquid_staple",
+"portion_g": 250,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.4,
+"waste_rate": 0.1,
+"tags": "soft",
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 40,
+"loss": -0.6
+},
+{
+"ing": "MILLET",
+"gross_weight_g": 15,
+"loss": -0.5
+}
+]
+},
+{
+"code": "D_CONGEE",
+"name": "小米南瓜粥",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 5,
+"meal_slots": "breakfast,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "MILLET",
+"gross_weight_g": 35,
+"loss": -0.5
+},
+{
+"ing": "PUMPKIN",
+"gross_weight_g": 60,
+"loss": 0.1
+}
+]
+},
+{
+"code": "D_OAT_PORRIDGE",
+"name": "牛奶燕麦粥",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 5,
+"meal_slots": "breakfast",
+"preference_score": 4.1,
+"waste_rate": 0.07,
+"tags": "soft",
+"recipe": [
+{
+"ing": "OAT",
+"gross_weight_g": 40,
+"loss": -0.3
+},
+{
+"ing": "MILK",
+"gross_weight_g": 200,
+"loss": 0.0
+}
+]
+},
+{
+"code": "D_NOODLE",
+"name": "番茄汤面",
+"dish_type": "staple",
+"portion_g": 280,
+"iddsi_level": 6,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.3,
+"waste_rate": 0.09,
+"recipe": [
+{
+"ing": "NOODLE",
+"gross_weight_g": 80,
+"loss": 0.05
+},
+{
+"ing": "TOMATO",
+"gross_weight_g": 80,
+"loss": 0.1
+},
+{
+"ing": "EGGPLANT",
+"gross_weight_g": 0,
+"loss": 0
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+}
+]
+},
+{
+"code": "D_SWEET_POTATO",
+"name": "蒸红薯（软）",
+"dish_type": "staple",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.05,
+"tags": "soft",
+"recipe": [
+{
+"ing": "SWEET_POTATO",
+"gross_weight_g": 170,
+"loss": 0.1
+}
+]
+},
+{
+"code": "D_MASHED_POTATO",
+"name": "奶香土豆泥",
+"dish_type": "staple",
+"portion_g": 180,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "POTATO",
+"gross_weight_g": 180,
+"loss": 0.15
+},
+{
+"ing": "MILK",
+"gross_weight_g": 40,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PORK_CABBAGE",
+"name": "里脊炒白菜",
+"dish_type": "meat",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.1,
+"recipe": [
+{
+"ing": "PORK_LEAN",
+"gross_weight_g": 70,
+"loss": 0.2
+},
+{
+"ing": "PAKCHOI",
+"gross_weight_g": 120,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 6,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1.2,
+"loss": 0
+}
+]
+},
+{
+"code": "D_BEEF_TOMATO",
+"name": "番茄炖牛腩",
+"dish_type": "meat",
+"portion_g": 160,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.5,
+"waste_rate": 0.08,
+"recipe": [
+{
+"ing": "BEEF",
+"gross_weight_g": 80,
+"loss": 0.3
+},
+{
+"ing": "TOMATO",
+"gross_weight_g": 100,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1.3,
+"loss": 0
+}
+]
+},
+{
+"code": "D_MINCED_PORK_RICE",
+"name": "肉泥烩饭",
+"dish_type": "meat",
+"portion_g": 250,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.1,
+"waste_rate": 0.09,
+"tags": "soft",
+"recipe": [
+{
+"ing": "PORK_LEAN",
+"gross_weight_g": 60,
+"loss": 0.15
+},
+{
+"ing": "RICE",
+"gross_weight_g": 60,
+"loss": -0.2
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_CHICKEN_BROCCOLI",
+"name": "鸡胸西兰花",
+"dish_type": "meat",
+"portion_g": 160,
+"iddsi_level": 7,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.1,
+"recipe": [
+{
+"ing": "CHICKEN",
+"gross_weight_g": 90,
+"loss": 0.25
+},
+{
+"ing": "BROCCOLI",
+"gross_weight_g": 100,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 6,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1.2,
+"loss": 0
+}
+]
+},
+{
+"code": "D_MINCED_CHICKEN_CUSTARD",
+"name": "鸡肉蛋羹（碎软）",
+"dish_type": "meat",
+"portion_g": 180,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.3,
+"waste_rate": 0.07,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 60,
+"loss": 0.05
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 60,
+"loss": 0.2
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_STEAMED_BASS",
+"name": "清蒸鲈鱼",
+"dish_type": "meat",
+"portion_g": 120,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.4,
+"waste_rate": 0.12,
+"tags": "soft",
+"recipe": [
+{
+"ing": "FISH_BASS",
+"gross_weight_g": 180,
+"loss": 0.18
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_FISH_PASTE",
+"name": "鱼泥豆腐羹",
+"dish_type": "meat",
+"portion_g": 200,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "FISH_BASS",
+"gross_weight_g": 120,
+"loss": 0.2
+},
+{
+"ing": "TOFU",
+"gross_weight_g": 80,
+"loss": 0.1
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_SHRIMP_GOURD",
+"name": "虾仁冬瓜",
+"dish_type": "meat",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.12,
+"recipe": [
+{
+"ing": "SHRIMP",
+"gross_weight_g": 80,
+"loss": 0.25
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 120,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PORK_BELLY_PRESERVED",
+"name": "腊肉蒸咸蛋（示例高风险菜）",
+"dish_type": "meat",
+"portion_g": 120,
+"iddsi_level": 7,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.5,
+"waste_rate": 0.1,
+"tags": "high_fat",
+"recipe": [
+{
+"ing": "PORK_BELLY",
+"gross_weight_g": 70,
+"loss": 0.3
+},
+{
+"ing": "DUCK_EGG",
+"gross_weight_g": 50,
+"loss": 0.1
+},
+{
+"ing": "HAM",
+"gross_weight_g": 20,
+"loss": 0.1
+}
+]
+},
+{
+"code": "D_EGG_CUSTARD",
+"name": "蒸水蛋",
+"dish_type": "egg",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.06,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 100,
+"loss": 0.0
+},
+{
+"ing": "OIL",
+"gross_weight_g": 3,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_BOILED_EGG",
+"name": "水煮蛋",
+"dish_type": "egg",
+"portion_g": 60,
+"iddsi_level": 7,
+"meal_slots": "breakfast",
+"preference_score": 3.8,
+"waste_rate": 0.05,
+"recipe": [
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 70,
+"loss": 0.1
+}
+]
+},
+{
+"code": "D_TOMATO_EGG",
+"name": "番茄炒蛋",
+"dish_type": "egg",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.5,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 100,
+"loss": 0.08
+},
+{
+"ing": "TOMATO",
+"gross_weight_g": 120,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 8,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1.2,
+"loss": 0
+}
+]
+},
+{
+"code": "D_MAPO_TOFU",
+"name": "家常豆腐（微辣少盐）",
+"dish_type": "soy",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.3,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "TOFU",
+"gross_weight_g": 150,
+"loss": 0.12
+},
+{
+"ing": "OIL",
+"gross_weight_g": 6,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_TOFU_GREENS",
+"name": "青菜豆腐",
+"dish_type": "soy",
+"portion_g": 160,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.09,
+"tags": "soft",
+"recipe": [
+{
+"ing": "TOFU",
+"gross_weight_g": 100,
+"loss": 0.1
+},
+{
+"ing": "PAKCHOI",
+"gross_weight_g": 100,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_TOFU_MASH",
+"name": "豆腐泥（软）",
+"dish_type": "soy",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.8,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "TOFU",
+"gross_weight_g": 160,
+"loss": 0.1
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.6,
+"loss": 0
+}
+]
+},
+{
+"code": "D_SOY_MILK",
+"name": "无糖豆浆",
+"dish_type": "soy",
+"portion_g": 250,
+"iddsi_level": 3,
+"meal_slots": "breakfast",
+"preference_score": 3.9,
+"waste_rate": 0.06,
+"tags": "liquid,soft,low_sodium",
+"recipe": [
+{
+"ing": "SOY_MILK",
+"gross_weight_g": 250,
+"loss": 0
+}
+]
+},
+{
+"code": "D_GREENS_GARLIC",
+"name": "蒜蓉小白菜",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.12,
+"recipe": [
+{
+"ing": "PAKCHOI",
+"gross_weight_g": 200,
+"loss": 0.3
+},
+{
+"ing": "OIL",
+"gross_weight_g": 6,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_SPINACH_SOFT",
+"name": "软煮菠菜",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.8,
+"waste_rate": 0.1,
+"tags": "soft",
+"recipe": [
+{
+"ing": "SPINACH",
+"gross_weight_g": 190,
+"loss": 0.3
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_GOURD_SOFT",
+"name": "蚝油冬瓜（软）",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.08,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 190,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PUMPKIN_MASH",
+"name": "南瓜泥",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.07,
+"tags": "soft",
+"recipe": [
+{
+"ing": "PUMPKIN",
+"gross_weight_g": 200,
+"loss": 0.25
+}
+]
+},
+{
+"code": "D_CARROT_MASH",
+"name": "胡萝卜泥",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.6,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CARROT",
+"gross_weight_g": 200,
+"loss": 0.25
+}
+]
+},
+{
+"code": "D_EGGPLANT_SOFT",
+"name": "清蒸茄子（软）",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 5,
+"meal_slots": "dinner",
+"preference_score": 3.7,
+"waste_rate": 0.1,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "EGGPLANT",
+"gross_weight_g": 180,
+"loss": 0.22
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_FUNGUS_GREENS",
+"name": "木耳小白菜",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.8,
+"waste_rate": 0.12,
+"tags": "low_sodium",
+"recipe": [
+{
+"ing": "FUNGUS",
+"gross_weight_g": 60,
+"loss": 0.1
+},
+{
+"ing": "PAKCHOI",
+"gross_weight_g": 150,
+"loss": 0.3
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 1,
+"loss": 0
+}
+]
+},
+{
+"code": "D_SEAWEAD_SOUP",
+"name": "海带豆腐汤",
+"dish_type": "soup",
+"portion_g": 250,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.05,
+"tags": "soft",
+"recipe": [
+{
+"ing": "SEAWEED",
+"gross_weight_g": 60,
+"loss": 0.1
+},
+{
+"ing": "TOFU",
+"gross_weight_g": 60,
+"loss": 0.1
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.9,
+"loss": 0
+}
+]
+},
+{
+"code": "D_TOMATO_EGG_SOUP",
+"name": "番茄蛋花汤",
+"dish_type": "soup",
+"portion_g": 250,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.05,
+"tags": "soft",
+"recipe": [
+{
+"ing": "TOMATO",
+"gross_weight_g": 80,
+"loss": 0.2
+},
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 40,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_GOURD_SOUP",
+"name": "冬瓜清汤",
+"dish_type": "soup",
+"portion_g": 250,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.6,
+"waste_rate": 0.05,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 100,
+"loss": 0.2
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.7,
+"loss": 0
+}
+]
+},
+{
+"code": "D_CHICKEN_BROTH",
+"name": "浓鸡汤（高嘌呤示例）",
+"dish_type": "soup",
+"portion_g": 250,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.3,
+"waste_rate": 0.05,
+"tags": "soft,liquid",
+"recipe": [
+{
+"ing": "CHICKEN_BROTH",
+"gross_weight_g": 250,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PORK_LIVER_SOUP",
+"name": "猪肝菠菜汤",
+"dish_type": "soup",
+"portion_g": 250,
+"iddsi_level": 6,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.7,
+"waste_rate": 0.08,
+"recipe": [
+{
+"ing": "PORK_LIVER",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "SPINACH",
+"gross_weight_g": 80,
+"loss": 0.25
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.9,
+"loss": 0
+}
+]
+},
+{
+"code": "D_MILK",
+"name": "温纯牛奶",
+"dish_type": "milk",
+"portion_g": 250,
+"iddsi_level": 3,
+"meal_slots": "breakfast",
+"preference_score": 4.0,
+"waste_rate": 0.03,
+"tags": "liquid,soft,low_sodium",
+"recipe": [
+{
+"ing": "MILK",
+"gross_weight_g": 250,
+"loss": 0
+}
+]
+},
+{
+"code": "D_YOGURT",
+"name": "无糖酸奶",
+"dish_type": "milk",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast",
+"preference_score": 4.1,
+"waste_rate": 0.04,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "YOGURT",
+"gross_weight_g": 150,
+"loss": 0
+}
+]
+},
+{
+"code": "D_BANANA",
+"name": "香蕉（小段）",
+"dish_type": "fruit",
+"portion_g": 120,
+"iddsi_level": 6,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.3,
+"waste_rate": 0.12,
+"tags": "soft",
+"recipe": [
+{
+"ing": "BANANA",
+"gross_weight_g": 170,
+"loss": 0
+}
+]
+},
+{
+"code": "D_BANANA_MASH",
+"name": "香蕉泥",
+"dish_type": "fruit",
+"portion_g": 120,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "BANANA",
+"gross_weight_g": 170,
+"loss": 0
+}
+]
+},
+{
+"code": "D_APPLE",
+"name": "苹果（切块）",
+"dish_type": "fruit",
+"portion_g": 150,
+"iddsi_level": 7,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.15,
+"recipe": [
+{
+"ing": "APPLE",
+"gross_weight_g": 190,
+"loss": 0
+}
+]
+},
+{
+"code": "D_APPLE_SAUCE",
+"name": "蒸苹果泥",
+"dish_type": "fruit",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "APPLE",
+"gross_weight_g": 190,
+"loss": 0.2
+}
+]
+},
+{
+"code": "D_ORANGE",
+"name": "橙子（掰瓣）",
+"dish_type": "fruit",
+"portion_g": 150,
+"iddsi_level": 6,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.18,
+"tags": "soft",
+"recipe": [
+{
+"ing": "ORANGE",
+"gross_weight_g": 200,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PAPAYA_MASH",
+"name": "木瓜泥（低钾）",
+"dish_type": "fruit",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.8,
+"waste_rate": 0.1,
+"tags": "soft,low_potassium",
+"recipe": [
+{
+"ing": "PAPAYA",
+"gross_weight_g": 180,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PEANUT_PORRIDGE",
+"name": "花生粥（含花生过敏原示例）",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 6,
+"meal_slots": "breakfast",
+"preference_score": 3.6,
+"waste_rate": 0.1,
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 35,
+"loss": -0.5
+},
+{
+"ing": "PEANUT",
+"gross_weight_g": 20,
+"loss": 0.05
+}
+]
+},
+{
+"code": "D_PICKLE_SIDE",
+"name": "佐餐榨菜（高钠示例）",
+"dish_type": "vegetable",
+"portion_g": 30,
+"iddsi_level": 7,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.2,
+"waste_rate": 0.08,
+"recipe": [
+{
+"ing": "PICKLE",
+"gross_weight_g": 30,
+"loss": 0
+}
+]
+},
+{
+"code": "D_HAM_RICE",
+"name": "火腿菜饭（高钠加工肉示例）",
+"dish_type": "staple",
+"portion_g": 250,
+"iddsi_level": 7,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.7,
+"waste_rate": 0.09,
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 70,
+"loss": -0.1
+},
+{
+"ing": "HAM",
+"gross_weight_g": 40,
+"loss": 0.15
+},
+{
+"ing": "PAKCHOI",
+"gross_weight_g": 80,
+"loss": 0.3
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+}
+]
+},
+{
+"code": "D_MILLET_CONGEE_PLAIN",
+"name": "小米清汤粥",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.8,
+"waste_rate": 0.07,
+"tags": "soft",
+"recipe": [
+{
+"ing": "MILLET",
+"gross_weight_g": 30,
+"loss": -0.55
+}
+]
+},
+{
+"code": "D_BEEF_PORRIDGE",
+"name": "牛肉末菜粥（软）",
+"dish_type": "meat",
+"portion_g": 280,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "BEEF",
+"gross_weight_g": 45,
+"loss": 0.2
+},
+{
+"ing": "RICE",
+"gross_weight_g": 50,
+"loss": -0.35
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 60,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.9,
+"loss": 0
+}
+]
+},
+{
+"code": "D_CHICKEN_PORRIDGE",
+"name": "鸡茸胡萝卜粥",
+"dish_type": "meat",
+"portion_g": 280,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.1,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN",
+"gross_weight_g": 45,
+"loss": 0.2
+},
+{
+"ing": "RICE",
+"gross_weight_g": 50,
+"loss": -0.35
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.9,
+"loss": 0
+}
+]
+},
+{
+"code": "D_VEG_MASH_MIX",
+"name": "双色蔬菜泥（冬瓜胡萝卜）",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.7,
+"waste_rate": 0.08,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 110,
+"loss": 0.25
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 90,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 3,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.5,
+"loss": 0
+}
+]
+},
+{
+"code": "D_PORK_MINCE_GOURD",
+"name": "肉末冬瓜（软）",
+"dish_type": "meat",
+"portion_g": 160,
+"iddsi_level": 5,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.09,
+"tags": "soft",
+"recipe": [
+{
+"ing": "PORK_LEAN",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 150,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 5,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.9,
+"loss": 0
+}
+]
+},
+{
+"code": "D_FISH_PORRIDGE",
+"name": "鱼茸粥（软）",
+"dish_type": "meat",
+"portion_g": 280,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.09,
+"tags": "soft",
+"recipe": [
+{
+"ing": "FISH_BASS",
+"gross_weight_g": 90,
+"loss": 0.2
+},
+{
+"ing": "RICE",
+"gross_weight_g": 50,
+"loss": -0.35
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 40,
+"loss": 0.2
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_EGG_CUSTARD_LOWNA",
+"name": "低钠蒸蛋羹",
+"dish_type": "egg",
+"portion_g": 150,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.06,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 90,
+"loss": 0.0
+},
+{
+"ing": "OIL",
+"gross_weight_g": 3,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.5,
+"loss": 0
+}
+]
+},
+{
+"code": "D_TOFU_VEG_SOUP",
+"name": "豆腐青菜羹（软）",
+"dish_type": "soy",
+"portion_g": 220,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.06,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "TOFU",
+"gross_weight_g": 100,
+"loss": 0.1
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 80,
+"loss": 0.2
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.7,
+"loss": 0
+}
+]
+},
+{
+"code": "D_RICE_GRUEL_SOFT",
+"name": "白米软粥",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.06,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 55,
+"loss": -0.55
+}
+]
+},
+{
+"code": "D_GOURD_PORRIDGE",
+"name": "冬瓜米糊（低钾）",
+"dish_type": "liquid_staple",
+"portion_g": 300,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.7,
+"waste_rate": 0.08,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 40,
+"loss": -0.5
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 80,
+"loss": 0.25
+}
+]
+},
+{
+"code": "D_PUMPKIN_RICE_PASTE",
+"name": "南瓜米糊（泥状）",
+"dish_type": "liquid_staple",
+"portion_g": 280,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.9,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 40,
+"loss": -0.55
+},
+{
+"ing": "PUMPKIN",
+"gross_weight_g": 70,
+"loss": 0.25
+}
+]
+},
+{
+"code": "D_CARROT_RICE_PASTE",
+"name": "胡萝卜米糊",
+"dish_type": "liquid_staple",
+"portion_g": 280,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.7,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "RICE",
+"gross_weight_g": 40,
+"loss": -0.55
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 70,
+"loss": 0.25
+}
+]
+},
+{
+"code": "D_BEEF_RICE_PASTE",
+"name": "牛肉米糊（泥状高蛋白）",
+"dish_type": "meat",
+"portion_g": 280,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.1,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "BEEF",
+"gross_weight_g": 55,
+"loss": 0.2
+},
+{
+"ing": "RICE",
+"gross_weight_g": 45,
+"loss": -0.5
+},
+{
+"ing": "CARROT",
+"gross_weight_g": 40,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_CHICKEN_PUMPKIN_PASTE",
+"name": "鸡茸南瓜泥",
+"dish_type": "meat",
+"portion_g": 200,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN",
+"gross_weight_g": 55,
+"loss": 0.2
+},
+{
+"ing": "PUMPKIN",
+"gross_weight_g": 120,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.8,
+"loss": 0
+}
+]
+},
+{
+"code": "D_FISH_GOURD_PASTE",
+"name": "鱼茸冬瓜泥（低钾）",
+"dish_type": "meat",
+"portion_g": 200,
+"iddsi_level": 4,
+"meal_slots": "lunch,dinner",
+"preference_score": 4.0,
+"waste_rate": 0.09,
+"tags": "soft",
+"recipe": [
+{
+"ing": "FISH_BASS",
+"gross_weight_g": 100,
+"loss": 0.2
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 120,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 4,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.7,
+"loss": 0
+}
+]
+},
+{
+"code": "D_GOURD_MASH_PLAIN",
+"name": "清炒冬瓜泥（低钾）",
+"dish_type": "vegetable",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 3.6,
+"waste_rate": 0.07,
+"tags": "soft,low_sodium",
+"recipe": [
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 200,
+"loss": 0.25
+},
+{
+"ing": "OIL",
+"gross_weight_g": 3,
+"loss": 0.05
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.5,
+"loss": 0
+}
+]
+},
+{
+"code": "D_EGG_CUSTARD_MILK",
+"name": "牛奶蛋羹（软，不含额外蛋量示例）",
+"dish_type": "egg",
+"portion_g": 150,
+"iddsi_level": 4,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.1,
+"waste_rate": 0.06,
+"tags": "soft",
+"recipe": [
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 70,
+"loss": 0.0
+},
+{
+"ing": "MILK",
+"gross_weight_g": 60,
+"loss": 0
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.5,
+"loss": 0
+}
+]
+},
+{
+"code": "D_BEEF_CUSTARD",
+"name": "牛肉蒸蛋（碎软）",
+"dish_type": "meat",
+"portion_g": 160,
+"iddsi_level": 5,
+"meal_slots": "breakfast,lunch,dinner",
+"preference_score": 4.2,
+"waste_rate": 0.08,
+"tags": "soft",
+"recipe": [
+{
+"ing": "BEEF",
+"gross_weight_g": 45,
+"loss": 0.2
+},
+{
+"ing": "CHICKEN_EGG",
+"gross_weight_g": 60,
+"loss": 0.0
+},
+{
+"ing": "WAX_GOURD",
+"gross_weight_g": 50,
+"loss": 0.2
+},
+{
+"ing": "SALT",
+"gross_weight_g": 0.7,
+"loss": 0
+}
+]
+}
+]
